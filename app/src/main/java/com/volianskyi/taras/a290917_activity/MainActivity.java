@@ -62,17 +62,12 @@ public class MainActivity extends AppCompatActivity {
         Button myBtnMinus = (Button) findViewById(R.id.btnMinus);
         Button myBtnMultiply = (Button) findViewById(R.id.btnMultiply);
         Button myBtnDivide = (Button) findViewById(R.id.btnDivide);
-
-
         etTextFirst = (EditText) findViewById(R.id.etFirstNumber);
         etTextSecond = (EditText) findViewById(R.id.etSecondNumber);
-
-
         tvOut = (TextView) findViewById(R.id.tvOut);
         myBtnPlus.setOnClickListener(btnPlus);
         myBtnMinus.setOnClickListener(btnMinus);
         myBtnMultiply.setOnClickListener(btnMultiply);
         myBtnDivide.setOnClickListener(btnDivide);
-
     }
 }
